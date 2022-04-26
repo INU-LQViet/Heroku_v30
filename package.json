@@ -1,0 +1,16 @@
+{
+  "name": "heroku_v20",
+  "version": "2.0.0",
+  "description": "comparison with electron v3.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lqviet",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.3.1",
+    "socket.io": "^4.5.0"
+  }
+}
