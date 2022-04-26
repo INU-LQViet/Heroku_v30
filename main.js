@@ -3,8 +3,10 @@ const path = require('path');
 const {Server} = require('socket.io');
 const model = require('./model');
 
-const port = 3000;
-
+let port = process.env.PORT;
+if (port == null || port == "") {
+    port = 8000;
+}
 const app = express();
 
 app.use(express.static(path.join(__dirname,'public')));
